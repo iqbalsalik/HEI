@@ -1,0 +1,189 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+.green-line_wrap{
+    height: 3px;
+    margin: 30px 0;
+    position: relative;
+    width: 100%;
+}
+.green_line{
+    background-color: #00bfa5;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 14%;
+}
+.headings{
+    text-align: center;
+}
+.headings h6{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.service-wrap{
+    border: none;
+}
+
+.success_rate{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.success_rate img{
+    border-radius: 250px;
+}
+
+.parentCmpny{
+    background-color: rgb(175, 35, 35);
+    text-align: center;
+    color: white;
+    min-height: 40%;
+    font-family: "Gupter", serif;
+}
+.parentCmpny h1{
+    margin: 15px;
+    font-weight: bolder;
+}
+.parentCmpny p{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.parentCmpny hr{
+    width: 40%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.allServicesCategory{
+    display: flex;
+    background-color: #d8d0d0;
+    justify-content: center;
+    margin: 40px;
+}
+.allServicesCategory p{
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.active{
+    background-color: aqua;
+}
+.serviceDescription{
+    display: flex;
+    margin-top: 40px;
+    height: 80vh;
+}
+.serviceDescription .descrip, .serviceDescription .descImg{
+    width: 50%;
+}
+.serviceDescription .descImg img{
+    border-radius: 250px;
+    height: 100%;
+    margin-left: 40px;
+}
+.serviceDescription .descrip {
+    width: 60%;
+    margin: auto;
+    margin-left: 40px;
+}
+.serviceDescription .descrip h2{
+    margin-bottom: 40px;
+}
+.serviceDescription .descrip button{
+    margin-top: 40px;
+}
+.serviceDescContainer{
+    margin: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.displayNone{
+    display: none;
+}
+.displayBlock{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .success_rate img{
+        height: 150%;
+    }
+    .success_rate{
+        height: 22vh;
+    }
+    .container{
+        margin-bottom: -25%
+    }
+    .parentCmpny p{
+        font-size: large;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .allServicesCategory{
+        width: 100vw;
+        margin-left: 0;
+    }
+    .allServicesCategory p{
+        box-shadow: 0px 1px 5px black;
+        padding: 1px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100px;
+    }
+    .serviceDescription{
+        height: 60vh;
+    }
+    .serviceDescription .descImg img{
+        height: 40%;
+        margin-left: 0;
+    }
+    .serviceDescription .descrip{
+        width: 40%;
+        margin-left: 2%;
+        margin-top: 53px
+    }
+    .serviceDescription .descImg {
+        width: 60%;
+    }
+    .widthFull{
+        width: 90vw;
+    }
+    .serviceDescription .descrip h2{
+        margin-bottom: 10px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    .serviceDescription .descImg{
+        margin-top: 40px;
+    }
+    .serviceDescription .descrip button{
+        margin-top: 10px;
+        margin-left: 65%;
+        width: 92%;
+    }
+    .serviceDescContainer .serviceDescription .descrip p{
+        font-size: small;
+    }
+    .heading1 p{
+        font-size: small;
+    }
+    .heading1 h1{
+        font-size: larger;
+    }
+    .container{
+        margin-bottom: -20%;
+    }
+}

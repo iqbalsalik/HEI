@@ -1,0 +1,131 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+.mainInformation{
+    background-color: #181a1b;
+    color: #d4c6c6;
+}
+.mainInformation p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: small;
+}
+.mainInformation h3{
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-top: 5%;*/
+    padding-bottom: 5%; 
+    width: 70%;
+}
+.imagaeAndDescContainer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.imagaeAndDescContainer .descContainer, .imagaeAndDescContainer .imgContainer{
+    width: 50%;
+}
+.imagaeAndDescContainer .imgContainer img{
+    width: 90%;
+    height: 80%;
+}
+.secondMainInformation{
+    background-color: #181a1b;
+    color: #d4c6c6;
+}
+.secondMainInformation h3{
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    /* padding-top: 5%;*/
+    /* padding-bottom: 5%;  */
+    width: 70%;
+}
+.secondMainInformation p{
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+    font-size: small;
+}
+.thridMainInformation{
+    background-color: #181a1b;
+    color: #d4c6c6;
+}
+.thirdBoxInformationContainer{
+    display: flex;
+}
+.thirdBoxInformationContainer .desc p{
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+    font-size: small;
+}
+.thirdBoxInformationContainer .imgContainer, .thirdBoxInformationContainer .desc {
+width: 50%;
+}
+.thirdBoxInformationContainer .imgContainer{
+    margin-left: 10%;
+}
+.thirdBoxInformationContainer .imgContainer img{
+    width: 90%;
+    height: 70%;
+}
+.thridMainInformation h3{
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%; 
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+    .mainInformation h3{
+        width: 100%;
+    }
+    .imagaeAndDescContainer .imgContainer img {
+        width: 90%;
+        height: 25%;
+        border-radius: 10px;
+    }
+    .fullWidth{
+        width: 95vw;
+    }
+    .margin-left{
+        margin-left: -105%;
+    }
+    .thirdBoxInformationContainer .imgContainer img{
+        height: 40%;
+        border-radius: 10px;
+    }
+    .secondMainInformation h3{
+        width: 100%;
+    }
+    .hero1-section-area.about-bg-area .hero-heading-area h1 {
+        font-size: larger;
+    }
+}
+
+.imgContainer,.desc  {
+    position: relative;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.5s ease-in-out;
+  }
+  .descContainer,.seconImageContainer{
+    position: relative;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .active1 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
