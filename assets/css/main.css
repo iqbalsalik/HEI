@@ -7171,6 +7171,7 @@ Location:
 .get_quote_button{
   width: 50%;
   margin: auto;
+  margin-top: 30px;
   background-color: black;
   border-radius: 10px;
 }
