@@ -138,12 +138,24 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 900px) {
+  .timeline{
+    margin-left: -30px;
+  }
   .timeline ul li div {
     width: 250px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
     /*250+45-6*/
+  }
+  .intro{
+    width: 77%;
+    margin: auto 40px;
+    height: 100px;
+    padding: 20px 0;
+  }
+  .intro .container h1{
+    font-size: 30px;
   }
 }
 
@@ -152,7 +164,8 @@ time {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
+    width: calc(100vw - 140px);
+    font-size: small;
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;

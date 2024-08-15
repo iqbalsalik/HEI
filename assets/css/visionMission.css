@@ -21,6 +21,10 @@
     margin: 20px;
     width: calc(50% - 20px);
     }
+    .container_vision_mission .card .face {
+        margin: auto;
+        width: 60%;
+        }
     }
     
     @media screen and (max-width: 480px) {
