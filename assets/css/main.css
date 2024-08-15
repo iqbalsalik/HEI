@@ -5685,6 +5685,10 @@ Location:
   top: 50px;
   position: absolute;
   transition: all 0.4s;
+  background-color: #c8c7c7;
+  display: flex;
+  width: 516px;
+  justify-content: space-between;
   /* background-color:black; */
 }
 

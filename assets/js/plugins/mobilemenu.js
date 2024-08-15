@@ -42,7 +42,18 @@
       var multiTg = function(){
         mobile_menu.find('.hash-nav').parent().addClass('hash-has-sub');
         mobile_menu.find(".has-sub").prepend('<span class="submenu-button"><em></em></span>');
-        mobile_menu.find('.submenu-button').on('click', function(){
+        mobile_menu.find('.submenu-button').parent().css({
+          'display': 'flex',
+
+        });        
+        mobile_menu.find('.submenu-button').next('a').css({
+          'marginLeft': '-20px'
+        });        
+          mobile_menu.find('.submenu-button').css({
+            'width': '20px',
+            'position': 'relative',
+            'left':'330px'
+          }).on('click', function(){
           $(this).toggleClass('submenu-opened');
             if ($(this).siblings('ul').hasClass('open-sub')) {
                 $(this).siblings('ul').removeClass('open-sub').hide('fadeIn');
