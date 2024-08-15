@@ -3429,7 +3429,7 @@ Location:
 /*============= HERO CSS AREA ===============*/
 /*============= MOBILE MENU CSS AREA ===============*/
 .mobile-header.mobile-haeder1 {
-  background: var(--ztc-text-text-3);
+  background: #00000000;
   position: fixed;
   width: 100%;
 }
@@ -11022,7 +11022,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11045,7 +11045,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11076,7 +11076,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11088,7 +11088,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11100,7 +11100,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11112,7 +11112,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11124,7 +11124,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11136,7 +11136,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11160,7 +11160,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11172,7 +11172,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
@@ -11184,7 +11184,7 @@ Location:
     max-width: 29%;
     max-height: 100%;
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 }
 
