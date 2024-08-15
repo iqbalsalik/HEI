@@ -3430,7 +3430,7 @@ Location:
 /*============= MOBILE MENU CSS AREA ===============*/
 .mobile-header.mobile-haeder1 {
   background: #00000000;
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 .mobile-header.mobile-haeder1 .dots-menu {

@@ -134,14 +134,17 @@
     .allServicesCategory{
         width: 100vw;
         margin-left: 0;
+        flex-direction: column;
     }
     .allServicesCategory p{
         box-shadow: 0px 1px 5px black;
-        padding: 1px;
+        padding: 5px;
       white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 100px;
+      font-size: small;
+      text-align: center;
+      /* overflow: hidden; */
+      /* text-overflow: ellipsis; */
+      /* max-width: 100px; */
     }
     .serviceDescription{
         height: 60vh;

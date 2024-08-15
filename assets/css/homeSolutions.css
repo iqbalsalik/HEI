@@ -254,4 +254,7 @@
           .arrows{
               top: 10%;
           }
+          .thumbnail .item .content{
+            font-weight: bolder;
+          }
       }
