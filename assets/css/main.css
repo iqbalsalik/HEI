@@ -5687,8 +5687,10 @@ Location:
   transition: all 0.4s;
   background-color: #c8c7c7;
   display: flex;
-  width: 516px;
+  width: 616px;
   justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   /* background-color:black; */
 }
 
@@ -5722,7 +5724,7 @@ Location:
   z-index: 1;
   transition: all 0.4s;
   border-radius: 5px;
-  padding: 15px;
+  padding: 5px;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li.main-small-menu {
   position: relative;
@@ -5752,6 +5754,7 @@ Location:
   z-index: 1;
   border-radius: 4px;
   color: var(--ztc-text-text-3);
+  font-size: small;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a::after {
   position: absolute;
