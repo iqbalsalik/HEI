@@ -52,7 +52,7 @@
           mobile_menu.find('.submenu-button').css({
             'width': '20px',
             'position': 'relative',
-            'left':'330px'
+            'left':'300px'
           }).on('click', function(){
           $(this).toggleClass('submenu-opened');
             if ($(this).siblings('ul').hasClass('open-sub')) {
