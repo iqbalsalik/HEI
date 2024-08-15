@@ -8083,7 +8083,8 @@ Location:
   z-index: 1;
 }
 .contact-us-details{
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  height: 100vh;
 }
 .contact1-section-area::after {
   position: absolute;
