@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family: "Nunito", sans-serif;
 }
 .mainInformation{
@@ -16,7 +16,6 @@
     color: red;
     padding-left: 10%;
     padding-right: 10%;
-    /* padding-top: 5%;*/
     padding-bottom: 5%; 
     width: 70%;
 }
@@ -24,10 +23,19 @@
     display: flex;
     width: 90%;
     margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.imagaeAndDescContainer .descContainer, .imagaeAndDescContainer .imgContainer{
-    width: 50%;
+ .imagaeAndDescContainer .imgContainer{
+    width: 60%;
+    height: 400px;
+
 }
+.imagaeAndDescContainer .descContainer{
+    width: 60%;
+}
+
 .imagaeAndDescContainer .imgContainer img{
     width: 90%;
     height: 80%;
@@ -41,14 +49,11 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
-    /* padding-top: 5%;*/
-    /* padding-bottom: 5%;  */
     width: 70%;
 }
 .secondMainInformation p{
     padding-left: 10%;
     padding-right: 10%;
-    /* padding-top: 5%; */
     padding-bottom: 5%;
     font-size: small;
 }
@@ -62,7 +67,6 @@
 .thirdBoxInformationContainer .desc p{
     padding-left: 10%;
     padding-right: 10%;
-    /* padding-top: 5%; */
     padding-bottom: 5%;
     font-size: small;
 }
@@ -128,4 +132,120 @@ width: 50%;
     opacity: 1;
     transform: translateX(0);
   }
+ */
+ /* body{
+    background-color: red;
+ } */
+ .mainInformation{
+    background-color: #181a1b;
+    color: #d4c6c6;
+}
+.mainInformation p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: small;
+}
+ .categorySections{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+ }
+ .reverseCategorySection{
+    flex-direction: row-reverse;
+    text-align: end;
+ }
+ .categoryImgCont{
+    width: 40%;
+ }
+ .categoryImgCont img{
+    width: 100%;
+    border-radius: 500px;
+ }
+ .categoryDescCont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .firstContainer{
+    background-color: #181a1b;
+    color: white;
+    height: auto;
+    padding-bottom: 10px;
+ }
+ .thridMainInformation{
+    background-color: #181a1b;
+    color: #d4c6c6;
+}
+.thirdBoxInformationContainer{
+    display: flex;
+}
+.thirdBoxInformationContainer .desc p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-size: small;
+}
+.thirdBoxInformationContainer .imgContainer, .thirdBoxInformationContainer .desc {
+width: 50%;
+}
+.thirdBoxInformationContainer .imgContainer{
+    margin-left: 10%;
+}
+.thirdBoxInformationContainer .imgContainer img{
+    width: 90%;
+    height: 70%;
+}
+.thridMainInformation h3{
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%; 
+    padding-top: 40px;
+    width: 70%;
+}
 
+@media (max-width: 768px) {
+    .mainInformation h3{
+        width: 100%;
+    }
+    .imagaeAndDescContainer .imgContainer img {
+        width: 90%;
+        height: 25%;
+        border-radius: 10px;
+    }
+    .fullWidth{
+        width: 95vw;
+    }
+    .margin-left{
+        margin-left: -105%;
+    }
+    .thirdBoxInformationContainer .imgContainer img{
+        height: 40%;
+        border-radius: 10px;
+    }
+    .secondMainInformation h3{
+        width: 100%;
+    }
+    .hero1-section-area.about-bg-area .hero-heading-area h1 {
+        font-size: larger;
+    }
+    .categoryImgCont img{
+        border-radius: 5px;
+     }
+     .categorySections{
+        width: 90%;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 35px;
+     }
+     .categoryImgCont,.categoryDescCont{
+        width: 100%;
+     }
+     .reverseCategorySection{
+        text-align: start;
+     }
+}
