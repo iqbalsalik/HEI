@@ -11945,9 +11945,8 @@ figure.effect-ming:hover video {
   margin-right: 10px;
   /* width: 100%; */
   }
-  .image-gallery .reverse {
-  /* margin-right: 10px; */
-  }
+  /* .image-gallery .reverse {
+  } */
   .product_desc {
   height: 300px;
   margin: 0;
@@ -12100,6 +12099,13 @@ z-index: 9999;
   .logo-content ul li a{
     font-size: xx-small;
   }
+  .logo-content ul{
+    width: 198%;
+    margin-left: -15px;
+  }
+  .logo-content ul li{
+    width: 20px;
+  }
   .service-heading1{
     padding-left: 5px;
     margin: auto;
@@ -12137,6 +12143,9 @@ z-index: 9999;
   }
   .sect3{
     width: 45%;
+  }
+  .contact-us-details {
+    height: auto;
   }
 }
 .imgcomma{
