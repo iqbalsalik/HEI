@@ -11,7 +11,7 @@
   margin: auto;
 }
 
-.container {
+.solutionContainer {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -154,7 +154,7 @@ time {
     height: 100px;
     padding: 20px 0;
   }
-  .intro .container h1{
+  .intro .solutionContainer h1{
     font-size: 30px;
   }
 }

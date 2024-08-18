@@ -5142,7 +5142,7 @@ Location:
 .footer1-section-area {
   position: relative;
   z-index: 1;
-  background: #120a0a;
+  background: #1d1b16de;
 }
 .footer1-section-area .footer-logo-content {
   border-bottom: 1px solid #1A1F26;
@@ -5654,7 +5654,7 @@ Location:
   padding: 16px 32px;
   position: relative;
   border-radius: 4px;
-  background:#00000000;
+  background:#c5c5cab8;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   transition: all 0.4s;
@@ -5687,11 +5687,32 @@ Location:
   transition: all 0.4s;
   background-color: #c8c7c7;
   display: flex;
-  width: 616px;
-  justify-content: space-between;
+  width: 277px;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* background-color:black; */
+  flex-direction: column;
+}
+.dropdown-padding1 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 103%;
+  /* opacity: 0; */
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+  /* position: absolute; */
+  background-color: #c8c7c7;
+  /* top: 100px;
+  left: 100px; */
+  width: 250px;
+  min-width: 400px;
+  /* overflow: scroll; */
+  /* z-index: 2; */
+  transition: all 0.4s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.dropdown-padding1 li{
+  margin: 0;
 }
 
 /* .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li:hover ul.dropdown-padding{
@@ -5720,12 +5741,18 @@ Location:
   position: absolute;
   background: var(--ztc-text-text-1);
   top: 100px;
-  width: 225px;
+  width: 250px;
   z-index: 1;
   transition: all 0.4s;
   border-radius: 5px;
   padding: 5px;
 }
+
+
+.dropdown-padding > li:hover .dropdown-padding1 {
+  display: block;
+}
+
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li.main-small-menu {
   position: relative;
 }
@@ -11995,5 +12022,125 @@ z-index: 9999;
   
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
 
-/* =========================SERVICE AREA STARTS======================= */
+/* =========================footer AREA STARTS======================= */
+
+.footerContainer{
+  /* border: 2px solid red;
+  color: white; */
+  background-color: #000000c7;
+  margin-bottom: 0;
+}
+.upperFooter{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  border-bottom: 1px solid white;
+  padding-top: 24px;
+}
+.sect{
+  width: 33%;
+  /* border: 2px solid yellow; */
+}
+.logo-content{
+  margin: auto;
+  color: white;
+}
+.logo-content ul{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-content ul li a{
+  color: white;
+}
+.logo-content p{
+  width: 151%;
+  margin: 11px 0px;
+}
+.lowerFooter{
+  text-align: center;
+}
+.service-heading1{
+  height: 100%;
+  padding-left: 75px;
+}
+.service-heading1 h2{
+  color: white;
+}
+.service-heading1 ul {
+  margin-top: 30px;
+}
+.service-heading1 ul li{
+  margin: 10px;
+}
+.service-heading2{
+  width: 75%;
+  margin-left: 16px;
+}
+.service-heading2 h2{
+  color: white;
+}
+.service-heading2 ul{
+  margin-top: 30px;
+}
+.service-heading2 ul li {
+  margin: 5px 0px;
+}
+.service-heading ul li a{
+  color: white;
+}
+.lowerFooter .copyright{
+  color: white;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 768px){
+  .logo-content p{
+    font-size: xx-small;
+  }
+  .logo-content ul li a{
+    font-size: xx-small;
+  }
+  .service-heading1{
+    padding-left: 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .service-heading1 h2{
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .service-heading1 ul li{
+    margin: 2px;
+    font-size: small;
+  }
+  .service-heading2{
+    width: 100%;
+    margin-left: 2px;
+  }
+  .service-heading2 h2{
+    font-size: 16px;
+  }
+  .service-heading2 ul li {
+    margin: 2px 0px;
+  }
+  .service-heading2 ul li a {
+    font-size: xx-small;
+  }
+  .upperFooter{
+    justify-content: flex-start;
+  }
+  .sect1{
+    width: 30%;
+  }
+  .sect2{
+    width: 25%;
+  }
+  .sect3{
+    width: 45%;
+  }
+}
+.imgcomma{
+  width: 40px;
+}
+
 

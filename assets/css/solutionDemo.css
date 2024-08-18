@@ -83,6 +83,12 @@
  .reverse{
   flex-direction: row-reverse;
  }
+ .reverse .solutionInfoContainer h2{
+  width: 100%;
+ }
+ .reverse .solutionInfoContainer{
+  text-align: end;
+ }
 
 
  .headingContainer{
@@ -162,9 +168,7 @@
     margin-bottom: 100px;
     font-size: large;
  }
- .imgcomma{
-    width: 40px;
- }
+ 
 
  .descContainer, .thirdInfoContainer  {
    position: relative;

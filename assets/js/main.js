@@ -3,16 +3,18 @@
 $(document).ready(function(){
 
 //========== HEADER ACTIVE STRATS ============= //
-// if ($("#header").length > 0) {
-// $(window).on("scroll", function (event) {
-//   var scroll = $(window).scrollTop();
-//   if (scroll < 1) {
-//   $(".header-area").removeClass("sticky");
-//   } else {
-//   $(".header-area").addClass("sticky");
-//   }
-//   });
-// }
+if ($("#header").length > 0) {
+$(window).on("scroll", function (event) {
+  var scroll = $(window).scrollTop();
+  if (scroll < 1) {
+  $(".header-area").removeClass("sticky");
+  $(".header-area .container .row .col-lg-12 .header-elements .main-menu ul li a").css("color", "white");
+  } else {
+  $(".header-area").addClass("sticky");
+  $(".header-area .container .row .col-lg-12 .header-elements .main-menu ul li a").css("color", "black");
+  }
+  });
+ }
 //========== HEADER ACTIVE ENDS ============= //
 
 
@@ -529,6 +531,19 @@ function pbmit_title_animation() {
 
 })(jQuery);
 
+// CONTACT PAGE NAVIGATE OF FORM ON CLICK OF THE ENQUIRE NOW BUTTON ON HOME PAGE
+
+window.addEventListener('load', function() {
+  // Check if the URL contains the hash
+  if (window.location.hash) {
+      const targetElement = document.querySelector(window.location.hash);
+      if (targetElement) {
+          // Scroll to the element with a smooth scroll
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+  }
+});
+
 // HOME PAGE SOLUTION
 
 let items = document.querySelectorAll('.slider .list .item');
@@ -584,6 +599,9 @@ thumbnails.forEach((thumbnail, index) => {
         showSlider();
     })
 })
+
+
+
 
 
 

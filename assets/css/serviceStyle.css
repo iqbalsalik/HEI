@@ -75,7 +75,7 @@
     cursor: pointer;
 }
 .active{
-    background-color: aqua;
+    background-color: #a9363642;
 }
 .serviceDescription{
     display: flex;
@@ -103,6 +103,7 @@
 }
 .serviceDescContainer{
     margin: 10px;
+    height: auto;
     /* display: flex;
     flex-direction: column; */
 }
@@ -111,6 +112,9 @@
 }
 .displayBlock{
     display: flex;
+}
+.footerContainer{
+    margin-top: 10%;
 }
 
 @media (max-width: 768px) {
@@ -147,11 +151,13 @@
       /* max-width: 100px; */
     }
     .serviceDescription{
-        height: 60vh;
+        /* height: 60vh; */
+        height: auto;
     }
     .serviceDescription .descImg img{
-        height: 40%;
+        height: 50%;
         margin-left: 0;
+        margin-top: 34px;
     }
     .serviceDescription .descrip{
         width: 40%;
@@ -160,6 +166,7 @@
     }
     .serviceDescription .descImg {
         width: 60%;
+        max-height: 400px;
     }
     .widthFull{
         width: 90vw;
@@ -176,6 +183,7 @@
         margin-top: 10px;
         margin-left: 65%;
         width: 92%;
+        font-size: small;
     }
     .serviceDescContainer .serviceDescription .descrip p{
         font-size: small;
@@ -189,4 +197,7 @@
     .container{
         margin-bottom: -20%;
     }
+    /* .footerContainer{
+        margin-top: 50%;
+    } */
 }

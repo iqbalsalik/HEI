@@ -5,6 +5,7 @@ const productCommissioning = document.getElementById("productCommissioning");
 const siteCommissioning = document.getElementById("siteCommissioning");
 const afterSalesServices = document.getElementById("afterSalesServices");
 const repairingServices = document.getElementById("repairingServices");
+const designAndDevelopmenet = document.getElementById("designAndDevelopmenet");
 // const annualMcA = document.getElementById("annualMcA");
 // const productCmssA = document.getElementById("productCmssA");
 
@@ -67,5 +68,15 @@ repairingServices.addEventListener("click",()=>{
     }
     const repairingS = document.getElementById("repairingS");
     repairingS.classList.add("displayBlock")
+})
+
+designAndDevelopmenet.addEventListener("click",()=>{
+    const children = serviceDescContainer.children;
+    for(let i = 0;i<children.length;i++){
+        children[i].classList.add("displayNone")
+        children[i].classList.remove("displayBlock")
+    }
+    const dndevlopment = document.getElementById("dndevlopment");
+    dndevlopment.classList.add("displayBlock")
 })
 
