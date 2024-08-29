@@ -187,6 +187,18 @@
    opacity: 1;
    transform: translateX(0);
  }
+/* 
+ .mainInformation{
+  background-color: #181a1b;
+  color: #d4c6c6;
+} */
+.mainInformation p{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* font-size: small; */
+}
 
 
 
@@ -203,6 +215,9 @@
    .lessWidth {
      width: 30%;
    } */
+   .mainInformation h3{
+    width: 100%;
+}
    .solutionItemContainer{
     flex-direction: column;
    }

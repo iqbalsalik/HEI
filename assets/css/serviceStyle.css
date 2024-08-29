@@ -69,21 +69,38 @@
     justify-content: center;
     margin: 40px;
 }
-.allServicesCategory p{
+.services-container1 {
+    display: flex;
+    overflow: hidden;
+    width:80%; /* adjust to fit three items */
+  }
+  
+  .services-container1 p {
+    flex-shrink: 0; /* prevent items from shrinking */
+    width: 33%; /* adjust to fit individual items */
+    text-align: center;
     padding: 15px;
-    font-weight: bold;
     cursor: pointer;
-}
+  }
+  .nav-btn1{
+    margin: 5px 10px;
+    width: 30px;
+  }
+  
 .active{
     background-color: #a9363642;
 }
 .serviceDescription{
     display: flex;
     margin-top: 40px;
-    height: 80vh;
+    /* height: 80vh; */
+    height: auto;
 }
 .serviceDescription .descrip, .serviceDescription .descImg{
     width: 50%;
+    /* max-width: 50%; */
+    height: 30%;
+    margin-right: 4%;
 }
 .serviceDescription .descImg img{
     border-radius: 250px;
@@ -104,8 +121,6 @@
 .serviceDescContainer{
     margin: 10px;
     height: auto;
-    /* display: flex;
-    flex-direction: column; */
 }
 .displayNone{
     display: none;
@@ -116,8 +131,14 @@
 .footerContainer{
     margin-top: 10%;
 }
+.widthFull{
+    width: 55vw;
+}
+.widthFullD{
+    width: 91vw;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
     .success_rate img{
         height: 150%;
     }
@@ -138,26 +159,32 @@
     .allServicesCategory{
         width: 100vw;
         margin-left: 0;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
-    .allServicesCategory p{
+    /* .allServicesCategory p{
         box-shadow: 0px 1px 5px black;
         padding: 5px;
       white-space: nowrap;
       font-size: small;
       text-align: center;
-      /* overflow: hidden; */
-      /* text-overflow: ellipsis; */
-      /* max-width: 100px; */
-    }
+    } */
+    .services-container1 p {
+        font-size: small;
+        padding: 4px;
+        margin: 0 0px;
+      }
+      .nav-btn1{
+        margin: 5px 2px;
+        width: 20px;
+      }
     .serviceDescription{
         /* height: 60vh; */
         height: auto;
     }
     .serviceDescription .descImg img{
         height: 50%;
-        margin-left: 0;
-        margin-top: 34px;
+        margin-left: 10px;
+        margin-top: 24px;
     }
     .serviceDescription .descrip{
         width: 40%;

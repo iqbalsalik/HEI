@@ -80,3 +80,55 @@ designAndDevelopmenet.addEventListener("click",()=>{
     dndevlopment.classList.add("displayBlock")
 })
 
+
+const servicesContainer = document.querySelector('.services-container1');
+const services = servicesContainer.querySelectorAll('p');
+const leftBtn = document.querySelector('.left-btn1');
+const rightBtn = document.querySelector('.right-btn1');
+
+
+let currentIndex = 0;
+
+leftBtn.addEventListener('click', () => {
+  if (currentIndex !== 0) {
+    currentIndex--;
+    updateServices();
+  }
+});
+
+rightBtn.addEventListener('click', () => {
+  if (currentIndex !== services.length - 1) {
+    currentIndex++;
+    updateServices();
+  }
+});
+
+function updateServices() {
+  services.forEach((service, index) => {
+    if (index >= currentIndex && index < currentIndex + 3) {
+      service.style.display = 'block';
+    } else {
+      service.style.display = 'none';
+    }
+  });
+
+  // Disable buttons when reaching the first or last index
+  if (currentIndex === 0) {
+    leftBtn.disabled = true;
+    rightBtn.disabled = false;
+  } else if (currentIndex === services.length - 3) {
+    leftBtn.disabled = false;
+    rightBtn.disabled = true;
+  } else {
+    leftBtn.disabled = false;
+    rightBtn.disabled = false;
+  }
+}
+
+updateServices();
+
+
+
+  
+
+

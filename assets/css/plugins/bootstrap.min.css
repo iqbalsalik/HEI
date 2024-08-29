@@ -8409,7 +8409,12 @@ fieldset:disabled .btn {
 }
 
 .align-items-center {
-	align-items: center !important
+	align-items: center !important;
+}
+.align_items_center_contact{
+	align-items: center !important;
+	flex-direction: column;
+    gap: 20px;
 }
 
 .align-items-baseline {

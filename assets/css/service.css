@@ -52,8 +52,50 @@
       position: relative;
   }
   
-  .service-wrap:hover {
-    background-image: url(https://i.ibb.co/mykzQks/services1.jpg);
+  /* .service-wrap:hover {
+    background-image: url(../img/services/After\ Sales\ Service\ Brief.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  } */
+  #annual_service_wrap:hover{
+    background-image: url(../img/services/Annual\ Maintenance\ Contract.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  #pc_service_wrap:hover{
+    background-image: url(../img/services/Product\ Commissioning\ Brief.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  #stc_service_wrap:hover{
+    background-image: url(../img/services/Site\ Commissioning\ Brief.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  #ass_service_wrap:hover{
+    background-image: url(../img/services/After\ Sales\ Service\ Brief.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  #sd_service_wrap:hover{
+    background-image: url(../img/services/After\ Sales\ Service\ Brief.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  #rs_service_wrap:hover{
+    background-image: url(../img/services/Repairing\ Brief.jpeg);
     background-size: cover;
     background-position: center center;
     background-attachment: local;

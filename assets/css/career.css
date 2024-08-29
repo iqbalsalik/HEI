@@ -7,6 +7,7 @@
     width: 90vw;
     margin: 60px auto;
     height: 400px;
+    height: auto;
 }
 
 .infoContainer{
@@ -25,8 +26,18 @@
     width: 100%;
     border-radius: 10px;
 }
+.careerInfo{
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+}
+.careerInfo p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
-.secondContainer{
+/* .secondContainer{
     display: flex;
     flex-direction: column;
     margin: 60px auto;
@@ -34,7 +45,6 @@
 }
 .category ul{
     display: flex;
-    /* justify-content: space-between; */
     color: white;
 }
 .category ul li{
@@ -52,8 +62,8 @@
 .heading h2{
     text-align: center;
     margin: 15px;
-}
-.descImg{
+} */
+/* .descImg{
     display: flex;
     width: 90vw;
     margin: auto;
@@ -83,8 +93,8 @@
 }
 .displayNone{
     display: none;
-}
-.displayFlex{
+} */
+/* .displayFlex{
     display: flex;
 }
 .active{
@@ -95,7 +105,6 @@
 }
 .thirdContainer{
     padding: 30px;
-    /* border: 1px solid black; */
     border-radius: 15px;
     margin: 25px;
 }
@@ -111,7 +120,7 @@
 }
 .thirdHeadContainer{
     margin: 10px;
-}
+} */
 
 @media only screen and (max-width: 768px) {
     .fullWidth{
@@ -121,30 +130,28 @@
         margin-top: 5px;
         font-size: small;
     }
-    .category ul li{
+    /* .category ul li{
         font-size: small;
         width: 18%;
         padding: 5px 0;
-        /* padding: 5px; */
         overflow: hidden;
         border-radius: 10px;
 
-    }
-    .category ul{
+    } */
+    /* .category ul{
         align-items: center;
         width: 100%;
-        /* justify-content: space-between; */
-    }
-    .category{
+    } */
+    /* .category{
         width: 100vw;
     }
     .secondImgContainer img{
         width: 100%;
         padding: 5px;
         margin-top: 20px;
-        border-radius: 60px;
-    }
-    .descContainer{
+        border-radius: 60px; */
+    /* } */
+    /* .descContainer{
         padding: 5px;
         margin-top: 20px;
     }
@@ -162,19 +169,28 @@
         margin-top: 10px;
         margin-left: -110%;
         font-size: small;
-    }
-    .thirdMainContaainer{
+    } */
+    /* .thirdMainContaainer{
         margin-top: 30px;
         flex-direction: column;
     }
     .thirdDescContainer{
         font-size: small;
-    }
+    } */
     .firstContainer{
         margin: 10px auto;
-        height: 350px;
     }
-    .secondContainer{
+    .careerInfo{
         width: 100vw;
+        margin-bottom: 20px;
+        height: auto;
+
     }
+    .careerInfo p{
+        width: 90%;
+        text-align: justify;
+    }
+    /* .secondContainer{
+        width: 100vw;
+    } */
 }

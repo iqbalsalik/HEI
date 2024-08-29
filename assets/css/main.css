@@ -1532,7 +1532,7 @@ Location:
   margin-top: 5px;
   /* position: absolute;
   bottom: 0; */
-  width: 200px;
+  width: 32%;
   height: 150px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2915,7 +2915,7 @@ Location:
   left: 0;
   top: 0;
   background: var(--ztc-text-text-3);
-  opacity: 0.6;
+  opacity: 0.3;
   z-index: -1;
 }
 .hero1-section-area .hero-heading-area h5 {
@@ -8104,7 +8104,9 @@ Location:
 }
 .contact-us-details{
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  height: 100vh;
+  width: 80%;
+    height: auto;
+    padding: 10px;
 }
 .contact1-section-area::after {
   position: absolute;
@@ -11766,7 +11768,7 @@ figure.effect-ming:hover video {
 }
 
 .gallery_body{
-  background-color: #1c463bbf;
+  background-color: #141212;
 }
 
 
@@ -11972,7 +11974,7 @@ figure.effect-ming:hover video {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .card-img-top {
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   max-height: 170px;
   /* margin-bottom: 15px; */
 }
@@ -12036,10 +12038,16 @@ z-index: 9999;
 .logo-content{
   margin: auto;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 41%;
 }
 .logo-content ul{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .logo-content ul li a{
   color: white;
@@ -12139,6 +12147,7 @@ z-index: 9999;
   }
   .contact-us-details {
     height: auto;
+    width: 95% ;
   }
 }
 .imgcomma{

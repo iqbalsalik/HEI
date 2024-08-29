@@ -136,6 +136,7 @@ width: 50%;
  /* body{
     background-color: red;
  } */
+
  .mainInformation{
     background-color: #181a1b;
     color: #d4c6c6;
@@ -147,6 +148,14 @@ width: 50%;
     padding-bottom: 5%;
     font-size: small;
 }
+.mainInformation h3{
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%; 
+    width: 70%;
+}
+
  .categorySections{
     width: 75%;
     margin: auto;
@@ -175,6 +184,7 @@ width: 50%;
     color: white;
     height: auto;
     padding-bottom: 10px;
+    padding-top: 20px;
  }
  .thridMainInformation{
     background-color: #181a1b;
@@ -209,9 +219,7 @@ width: 50%;
 }
 
 @media (max-width: 768px) {
-    .mainInformation h3{
-        width: 100%;
-    }
+    
     .imagaeAndDescContainer .imgContainer img {
         width: 90%;
         height: 25%;
