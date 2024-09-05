@@ -6,7 +6,7 @@
 
 .intro {
   background: var(--ztc-text-text-2);
-  padding: 100px 0;
+  padding: 23px 0;
   width: 50%;
   margin: auto;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 .timeline ul {
-  background: black;
+  /* background: black; */
   padding: 50px 0;
 }
 
@@ -41,7 +41,7 @@ h1 {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  background: black;
 }
 
 .timeline ul li::after {

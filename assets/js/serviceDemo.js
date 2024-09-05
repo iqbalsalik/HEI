@@ -10,6 +10,50 @@ const designAndDevelopmenet = document.getElementById("designAndDevelopmenet");
 // const productCmssA = document.getElementById("productCmssA");
 
 
+document.querySelector('#annual_service_wrap a').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default anchor behavior
+  const serviceContainer = document.querySelector('#serviceContainer');
+  serviceContainer.scrollIntoView({ behavior: 'smooth' }); // scroll to the element
+  annualMainContract.click(); // simulate a click on the <p> tag
+});
+
+document.querySelector('#pc_service_wrap a').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default anchor behavior
+  const serviceContainer = document.querySelector('#serviceContainer');
+  serviceContainer.scrollIntoView({ behavior: 'smooth' }); // scroll to the element
+  productCommissioning.click(); // simulate a click on the <p> tag
+});
+
+document.querySelector('#stc_service_wrap a').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default anchor behavior
+  const serviceContainer = document.querySelector('#serviceContainer');
+  serviceContainer.scrollIntoView({ behavior: 'smooth' }); // scroll to the element
+  siteCommissioning.click(); // simulate a click on the <p> tag
+});
+
+document.querySelector('#ass_service_wrap a').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default anchor behavior
+  const serviceContainer = document.querySelector('#serviceContainer');
+  serviceContainer.scrollIntoView({ behavior: 'smooth' }); // scroll to the element
+  afterSalesServices.click(); // simulate a click on the <p> tag
+});
+
+document.querySelector('#sd_service_wrap a').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default anchor behavior
+  const serviceContainer = document.querySelector('#serviceContainer');
+  serviceContainer.scrollIntoView({ behavior: 'smooth' }); // scroll to the element
+  designAndDevelopmenet.click(); // simulate a click on the <p> tag
+});
+
+document.querySelector('#rs_service_wrap a').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default anchor behavior
+  const serviceContainer = document.querySelector('#serviceContainer');
+  serviceContainer.scrollIntoView({ behavior: 'smooth' }); // scroll to the element
+  repairingServices.click(); // simulate a click on the <p> tag
+});
+
+
+
 
 serviceCategories.forEach((category) => {
   category.addEventListener('click', () => {
@@ -124,6 +168,7 @@ function updateServices() {
     rightBtn.disabled = false;
   }
 }
+
 
 updateServices();
 

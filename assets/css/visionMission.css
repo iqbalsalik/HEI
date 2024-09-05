@@ -117,34 +117,52 @@
 
  .visionMissionContainer{
     display: flex;
-    width: 95vw;
+    /* width: 95vw; */
+    width: 100%;
     margin: auto;
     justify-content: center;
     position: relative;
+    transform: translateY(-33px);
  }
  .mainVisionContainer, .mainMissionContainer{
     position: relative;
     width: 45%;
     margin: 15px;
-    height: 50vh;
+    /* height: 33vh; */
  }
-  .visionDescContainer,.missionDescContainer{
-    display: flex;
+ .visionDescContainer, .missionDescContainer{
+        border-right: 0 solid red;
+        border-bottom: 0 solid red;
+        transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
+  .visionDescContainer:hover,.missionDescContainer:hover{
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding: 40px;
+    justify-content: center; */
+    /* align-items: center;
+    color: white; */
+    /* padding: 40px; */
+    border-right: 10px solid #c90f16;
+    border-bottom: 10px solid #c90f16;
+    box-shadow: none;
+ }
+ .visionDescContainer h2,.missionDescContainer h2{
+    font-size: x-large;
+    text-align: center;
+    color: red;
+ }
+ .visionDescContainer p,.missionDescContainer p{
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(-15px);
+    color: black;
  }
  .visionDescContainer::before{
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.63),
-      rgba(0, 0, 0, 0.63)
-    ),
-    url('../img/bg/vision.jpg');
-    background-size: cover;
-  background-position: center;
+    background-color: white;
+    /* background-size: cover;
+  background-position: center; */
   content: '';
   position: absolute;
   width: 100%;
@@ -155,14 +173,9 @@
   border-radius: 10px;
  }
  .missionDescContainer::before{
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.63),
-      rgba(0, 0, 0, 0.63)
-    ),
-    url('../img/bg/getty_501539900_112940.jpg');
-    background-size: cover;
-  background-position: center;
+    background-color: white;
+    /* background-size: cover;
+  background-position: center; */
   content: '';
   position: absolute;
   width: 100%;

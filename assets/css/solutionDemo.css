@@ -54,6 +54,9 @@
   /* flex-wrap: wrap; */
   /* border: 1px solid black; */
  }
+ .solutionCategoryContainer a{
+  color: black;
+ }
  .solutionItemContainer{
   width: 90%;
   margin: auto;
@@ -196,8 +199,8 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
-  padding-bottom: 5%;
-  /* font-size: small; */
+  padding-bottom: 1%;
+  font-size: large;
 }
 
 

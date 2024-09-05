@@ -180,15 +180,15 @@ width: 50%;
     justify-content: center;
  }
  .firstContainer{
-    background-color: #181a1b;
-    color: white;
+    /* background-color: #181a1b; */
+    color: black;
     height: auto;
     padding-bottom: 10px;
     padding-top: 20px;
  }
  .thridMainInformation{
-    background-color: #181a1b;
-    color: #d4c6c6;
+    /* background-color: #181a1b; */
+    color: black;
 }
 .thirdBoxInformationContainer{
     display: flex;
@@ -260,16 +260,21 @@ width: 50%;
     justify-content: center;
     /* align-items: center; */
     gap: 20px;
+    flex-direction: column;
 }
 .imgWithDetails{
-    width: 30%;
-    text-align: center;
-    max-height: 350px;
+    width: 90%;
+    text-align: start;
     box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    display: flex;
+    margin: auto;
+    padding: 30px;
 }
 .imgWithDetails img{
-    max-height: 65%;
+    max-height: 450px;
+    width: 45%;
+    margin: auto;
 }
 .imgWithDetails h5{
     padding: 20px;
@@ -327,7 +332,8 @@ width: 50%;
     }
     .imgWithDetails {
         width: 90%;
-        margin: auto
+        margin: auto;
+        flex-direction: column;
     }
     .imgWithDetails img {
         max-height: 188px;
