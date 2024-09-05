@@ -111,6 +111,9 @@ max-height: 100px;
   font-size: small;
   margin-bottom: 5px;
 }
+.categoryDesc h2{
+  text-align: center;
+}
 .categoryImg{
   /* height: 360px; */
   max-height: 220px;
@@ -120,6 +123,8 @@ max-height: 100px;
   width: 100%;
   transition: transform 0.5s ease;
   border-radius: 10px 10px 0px 0px;
+  max-height: 220px;
+  min-height: 220px;
 }
 .categoryImg img:hover{
   transform: scale(1.1);

@@ -232,6 +232,7 @@ width: 50%;
     width: 100vw;
     margin: auto;
     text-align: center;
+    margin-top: 20px;
 }
 .productInformation h2{
     padding-top: 30px;
@@ -251,7 +252,7 @@ width: 50%;
 .productCategoryItem{
     height: auto;
     width: 100vw;
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
 .subCategoryImgContainer{
     width: 100vw;
@@ -273,14 +274,34 @@ width: 50%;
 }
 .imgWithDetails img{
     max-height: 450px;
-    width: 45%;
+    /* width: 45%; */
     margin: auto;
+    max-width: 40%;
+    min-width: 40%;
 }
 .imgWithDetails h5{
     padding: 20px;
 }
 .cl{
     background-color: white;
+}
+.transformY{
+    transform: translateY(-175%);
+}
+.transformx-109{
+    transform: translateX(-109%);
+}
+.transformx-113{
+    transform: translateX(-113%);
+}
+.transformY-891{
+    transform: translateY(-891%);
+}
+.transformY-146{
+    transform: translateY(-146%);
+}
+.height-1300px{
+    height: 1300px;
 }
 
 @media (max-width: 768px) {
@@ -298,6 +319,7 @@ width: 50%;
     }
     .thirdBoxInformationContainer .imgContainer img{
         height: 40%;
+        width: 100%;
         border-radius: 10px;
     }
     .secondMainInformation h3{
@@ -336,6 +358,26 @@ width: 50%;
         flex-direction: column;
     }
     .imgWithDetails img {
-        max-height: 188px;
+        max-height: none;
+        max-width: none;
+        width: 100%;
+    }
+    .transformY{
+        transform: translateY(0%);
+    }
+    .transformx-109{
+        transform: translateY(0%);
+    }
+    .transformx-113{
+        transform: translateY(0%);
+    }
+    .transformY-891{
+        transform: translateY(0%);
+    }
+    .transformY-146{
+        transform: translateY(0%);
+    }
+    .height-1300px{
+        height: auto;
     }
 }
