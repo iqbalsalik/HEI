@@ -146,7 +146,11 @@
     }
       @media screen and (max-width: 678px) {
           .slider .list .item .content h2{
-              font-size: 40px;
+              font-size: large;
+              width: 66vw;
+          }
+          .slider .list .item .content p{
+            font-size: small;
           }
           .arrows{
               top: 10%;
@@ -165,8 +169,5 @@
         }
         .thumbnail .item{
           margin-bottom: 5px;
-      }
-      .slider .list .item .content h2{
-        width: 87vw;
       }
       }
