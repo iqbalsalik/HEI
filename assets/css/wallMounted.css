@@ -288,7 +288,7 @@ width: 50%;
 .transformY{
     transform: translateY(-175%);
 }
-.transformx-109{
+/* .transformx-109{
     transform: translateX(-109%);
 }
 .transformx-113{
@@ -301,8 +301,8 @@ width: 50%;
     transform: translateY(-146%);
 }
 .height-1300px{
-    height: 1300px;
-}
+    height: 1000px;
+} */
 
 @media (max-width: 768px) {
     
