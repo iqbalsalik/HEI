@@ -9571,6 +9571,8 @@ Location:
   position: relative;
   border-radius: 4px;
   padding: 32px;
+  max-height: 456px;
+  min-height: 456px;
 }
 .testimonial4-section-area .testimonial-slider-boxarea4 .tesimonial-slider ul {
   margin-bottom: 24px;

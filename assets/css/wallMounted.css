@@ -196,11 +196,11 @@ width: 50%;
 .thirdBoxInformationContainer .desc p{
     padding-left: 10%;
     padding-right: 10%;
-    /* padding-bottom: 5%; */
+    margin-top: 20px;
     font-size: small;
 }
 .thirdBoxInformationContainer .imgContainer, .thirdBoxInformationContainer .desc {
-width: 50%;
+width: 40%;
 }
 .thirdBoxInformationContainer .imgContainer{
     margin-left: 10%;
@@ -252,14 +252,12 @@ width: 50%;
 .productCategoryItem{
     height: auto;
     width: 100vw;
-    /* margin: 20px auto; */
 }
 .subCategoryImgContainer{
     width: 100vw;
     margin: auto;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap: 20px;
     flex-direction: column;
 }
@@ -291,21 +289,9 @@ width: 50%;
 .transformX-105{
     transform: translateX(-105px);
 }
-/* .transformx-109{
-    transform: translateX(-109%);
+.margin-30px{
+    margin: 30px !important;
 }
-.transformx-113{
-    transform: translateX(-113%);
-}
-.transformY-891{
-    transform: translateY(-891%);
-}
-.transformY-146{
-    transform: translateY(-146%);
-}
-.height-1300px{
-    height: 1000px;
-} */
 
 @media (max-width: 768px) {
     
@@ -317,9 +303,6 @@ width: 50%;
     .fullWidth{
         width: 95vw;
     }
-    /* .margin-left{
-        margin-left: -105%;
-    } */
     .thirdBoxInformationContainer{
         flex-direction: column;
     }
@@ -327,7 +310,6 @@ width: 50%;
         width: 100%;
     }
     .thirdBoxInformationContainer .imgContainer img{
-        /* height: 40%; */
         width: 77%;
         border-radius: 10px;
     }
@@ -399,5 +381,8 @@ width: 50%;
     }
     .transformX-105{
         transform: translateX(0px);
+    }
+    .margin-30px{
+        margin: 0px !important;
     }
 }
