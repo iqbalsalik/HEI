@@ -157,8 +157,9 @@
           }
           .slider .list .item .content{
             left: 13%;
-            top: 15%;
+            bottom: 15%;
             width: 75%;
+            height: auto;
         }
         
         #next{
