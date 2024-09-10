@@ -12133,6 +12133,14 @@ z-index: 9999;
   .service-heading1 h2{
     font-size: 16px;
     font-weight: bolder;
+    margin: 10px 0;
+  }
+  .service-heading1 ul{
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
   }
   .service-heading1 ul li{
     margin: 2px;
@@ -12144,6 +12152,12 @@ z-index: 9999;
   }
   .service-heading2 h2{
     font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .service-heading2 ul{
+    margin: 5px 0;
+    text-align: center;
   }
   .service-heading2 ul li {
     margin: 2px 0px;
@@ -12153,15 +12167,16 @@ z-index: 9999;
   }
   .upperFooter{
     justify-content: flex-start;
+    flex-direction: column;
   }
   .sect1{
-    width: 30%;
+    width: 100%;
   }
   .sect2{
-    width: 25%;
+    width: 100%;
   }
   .sect3{
-    width: 45%;
+    width: 100%;
   }
   .contact-us-details {
     height: auto;
