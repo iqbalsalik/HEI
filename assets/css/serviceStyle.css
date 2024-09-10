@@ -105,7 +105,7 @@
 .serviceDescription .descImg img{
     border-radius: 250px;
     height: 100%;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .serviceDescription .descrip {
     width: 60%;
@@ -184,7 +184,7 @@
     .serviceDescription .descImg img{
         height: 50%;
         margin-left: 10px;
-        margin-top: 24px;
+        margin-top: -20px;
     }
     .serviceDescription .descrip{
         width: 40%;
@@ -223,11 +223,5 @@
     }
     .container{
         margin-bottom: -20%;
-    }
-    /* .footerContainer{
-        margin-top: 50%;
-    } */
-    #afterSServices .descImg img{
-        margin-top: 0px;
     }
 }

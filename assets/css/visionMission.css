@@ -135,14 +135,10 @@
         border-bottom: 0 solid red;
         transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        min-height: 86%;
+        max-height: 86%;
  }
   .visionDescContainer:hover,.missionDescContainer:hover{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* align-items: center;
-    color: white; */
-    /* padding: 40px; */
     border-right: 10px solid #c90f16;
     border-bottom: 10px solid #c90f16;
     box-shadow: none;

@@ -12110,6 +12110,32 @@ z-index: 9999;
   color: white;
   padding: 15px;
 }
+#prevImgBtn{
+position: absolute;
+top: 50%;
+left: 5px;
+background-color: rgba(0, 0, 0, 0.504);
+padding: 10px;
+}
+#nextImgBtn{
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.504);
+  padding: 10px;
+}
+
+.gotToGallery{
+  width: 10%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.609);
+  color: red;
+  position: fixed;
+  top: 25%;
+  right: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 
 @media only screen and (max-width: 768px){
   .logo-content p{

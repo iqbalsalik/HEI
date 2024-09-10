@@ -293,6 +293,15 @@ width: 40%;
 .margin-30px{
     margin: 30px !important;
 }
+/* #qualityWithHEIImg{
+    display: block;
+}
+#qualityWithHEI{
+    display: none;
+} */
+.thirdBoxInformationContainer .imgContainer{
+    width: 37%;
+}
 
 @media (max-width: 768px) {
     
@@ -385,4 +394,10 @@ width: 40%;
     .margin-30px{
         margin: 0px !important;
     }
+    /* #qualityWithHEIImg{
+        display: none;
+    }
+    #qualityWithHEI{
+        display: block;
+    } */
 }

@@ -26,8 +26,9 @@
     margin-top: 65px;
 }
 .imgContainer img{
-    width: 100%;
+    width: 96%;
     border-radius: 10px;
+    margin-left: 20px;
 }
 .careerInfo{
     width: 90vw;

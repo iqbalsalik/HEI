@@ -131,25 +131,25 @@ const leftBtn = document.querySelector('.left-btn1');
 const rightBtn = document.querySelector('.right-btn1');
 
 
-let currentIndex = 0;
+let currentIndex1 = 0;
 
 leftBtn.addEventListener('click', () => {
-  if (currentIndex !== 0) {
-    currentIndex--;
+  if (currentIndex1 !== 0) {
+    currentIndex1--;
     updateServices();
   }
 });
 
 rightBtn.addEventListener('click', () => {
-  if (currentIndex !== services.length - 1) {
-    currentIndex++;
+  if (currentIndex1 !== services.length - 1) {
+    currentIndex1++;
     updateServices();
   }
 });
 
 function updateServices() {
   services.forEach((service, index) => {
-    if (index >= currentIndex && index < currentIndex + 3) {
+    if (index >= currentIndex1 && index < currentIndex1 + 3) {
       service.style.display = 'block';
     } else {
       service.style.display = 'none';
@@ -157,10 +157,10 @@ function updateServices() {
   });
 
   // Disable buttons when reaching the first or last index
-  if (currentIndex === 0) {
+  if (currentIndex1 === 0) {
     leftBtn.disabled = true;
     rightBtn.disabled = false;
-  } else if (currentIndex === services.length - 3) {
+  } else if (currentIndex1 === services.length - 3) {
     leftBtn.disabled = false;
     rightBtn.disabled = true;
   } else {
@@ -171,6 +171,8 @@ function updateServices() {
 
 
 updateServices();
+
+
 
 
 
