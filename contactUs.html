@@ -512,7 +512,7 @@
 
   <!--===== HERO AREA STARTS =======-->
   <div class="hero1-section-area about-bg-area">
-    <img src="assets/img/homePage/Main Header Image2.jpg" alt="" class="header-img1">
+    <img src="assets/img/homePage/PNG image.png" alt="" class="header-img1">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 m-auto">
@@ -627,12 +627,18 @@
               </div>
               <div class="col-lg-6">
                 <div class="input-area">
+                  <p>Company's Name</p>
+                  <input type="text" name="CompanyName" id="CompanyName" placeholder="Company Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="input-area">
                   <p>Number</p>
                   <input type="number" name="number" id="number" placeholder="Phone" required>
                 </div>
               </div>
 
-              <div class="col-lg-12">
+              <div class="col-lg-6">
                 <div class="input-area">
                   <p>Email </p>
                   <input type="email" name="email" id="email" placeholder="Email" required>
@@ -648,7 +654,7 @@
               <div class="col-lg-12">
                 <div class="input-area1">
                   <input type="checkbox" required>
-                  <p>I agree with the site privacy policy</p>
+                  <p>I agree with the site <a href="javascript:void(0)" style="text-decoration: underline;" id="privacy-policy-link">privacy policy</a></p>
                 </div>
               </div>
 
@@ -809,6 +815,62 @@
   <!--===== FOOTER AREA ENDS =======-->
 
 
+  <!-- Modal -->
+<div id="privacy-policy-modal" class="modal">
+  <div class="modal-content">
+    <h2>Privacy Policy</h2>
+    <span class="close">&times;</span>
+    <!-- Insert your privacy policy content here -->
+    <p>
+      At HEI, we value your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and protect your information when you visit our website. <br> <br>
+      <strong>Information Collection</strong> <br>
+      We collect personal data from you when you: <br>
+      &nbsp;&nbsp;&nbsp;- Fill out our contact form <br>
+      &nbsp;&nbsp;&nbsp;- Subscribe to our newsletter <br>
+      &nbsp;&nbsp;&nbsp;- Use our website, which may include: <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- IP address <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Browser type and version <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Operating system <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Referral source <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Page views and browsing behavior <br> <br>
+      <strong>Information Use</strong> <br>
+      We use your personal data to: <br>
+      &nbsp;&nbsp;&nbsp;- Respond to your inquiries and requests <br>
+      &nbsp;&nbsp;&nbsp;- Send you newsletters and marketing materials (if you opt-in) <br>
+      &nbsp;&nbsp;&nbsp;- Improve your website experience <br>
+      &nbsp;&nbsp;&nbsp;- Analyze website usage to enhance our services <br> <br>
+      <strong>Information Sharing</strong> <br>
+      We do not share your personal data with third parties, except: <br>
+      &nbsp;&nbsp;&nbsp;- With your consent <br>
+      &nbsp;&nbsp;&nbsp;- To comply with legal obligations <br>
+      &nbsp;&nbsp;&nbsp;- To protect our rights and interests <br><br>
+      <strong>Data Security</strong> <br>
+      We implement various security measures to protect your personal data from unauthorized access, disclosure, or destruction, including: <br>
+      &nbsp;&nbsp;&nbsp;- Encryption <br>
+      &nbsp;&nbsp;&nbsp;- Firewalls <br>
+      &nbsp;&nbsp;&nbsp;- Secure servers <br> <br>
+      <strong>User Rights</strong> <br>
+      You have the right to: <br>
+      &nbsp;&nbsp;&nbsp;- Access and correct your personal data <br>
+      &nbsp;&nbsp;&nbsp;- Request data deletion <br>
+      &nbsp;&nbsp;&nbsp;- Opt-out of data collection and processing <br>
+      &nbsp;&nbsp;&nbsp;- File a complaint with a supervisory authority <br><br>
+      <strong>Cookies and Tracking</strong> <br>
+      We use cookies and tracking technologies (e.g., Google Analytics) to improve your website experience and analyze usage. <br> <br>
+      <strong>Changes to this Privacy Policy</strong> <br>
+      We will notify you of changes to this privacy policy by posting an updated version on our website. <br> <br>
+      <strong>Contact Us</strong> <br>
+      If you have any questions or concerns about our privacy policy, please contact us at heipowerindia@gmail.com or C-24, A-2, Malviya Nagar
+      Industiral area, Malviya nagar,
+      Jaipur, Rajasthan, 302017. <br> <br>
+      <strong>Effective Date</strong> <br>
+      This privacy policy is effective as of 09/12/2024.
+    </p>
+  </div>
+</div>
+
+
+
 
 
 
@@ -828,27 +890,9 @@
   <script src="assets/js/plugins/nice-select.js"></script>
   <script src="assets/js/plugins/slick-slider.js"></script>
   <script src="assets/js/plugins/waypoints.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/career.js"></script>
-
-  <script>
-    document.getElementById('submitBtn').addEventListener('click', function() {
-      var name = document.getElementById('name').value;
-      var number = document.getElementById('number').value;
-      var email = document.getElementById('email').value;
-      var text = document.getElementById('text').value;
-  
-      var subject = 'Request A Quote';
-      var body = 'Additional Details:\n\n' + text + '\n\nBest Regards,\n' + name + '\n' + number;
-  
-      var mailtoLink = 'mailto:heipowerindia@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  
-      window.location.href = mailtoLink;
-    });
-  </script>
-  
-
-
+  <!-- <script src="assets/js/main.js"></script> -->
+  <!-- <script src="assets/js/career.js"></script> -->
+  <script src="assets/js/contactUs.js"></script>
 </body>
 
 

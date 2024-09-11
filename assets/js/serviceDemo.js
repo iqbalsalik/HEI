@@ -172,6 +172,23 @@ function updateServices() {
 
 updateServices();
 
+document.querySelectorAll('.anchorInService').forEach(anchor => {
+  anchor.addEventListener('click', event => {
+    event.preventDefault();
+    const href = anchor.getAttribute("href");
+    const elementId = href.substring(1);
+    const idElement = document.getElementById(elementId);
+    if(idElement){
+      idElement.scrollIntoView({behavior: 'smooth'});
+      const aTag = idElement.querySelector('a');
+      if(aTag){
+        aTag.click()
+      }
+    }
+  });
+});
+
+
 
 
 
